@@ -1,9 +1,9 @@
 name: Run Shell Commands
-on:[push]
+on: [push]
 
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
        name:Echo a string
-       run: echo" this is my first experiment"
+       run: echo "this is my first experiment"
