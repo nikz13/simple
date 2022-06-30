@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 name: Run Shell Commands
 on: [push]
 
+=======
+name:Run Shell commands
+on:[push]
+>>>>>>> 9dd753e34b275d970e44127f0cab0b73b9ca035d
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
        name:Echo a string
+<<<<<<< HEAD
        run:echo "this is my first experiment"
+=======
+       run:echo"this is my first experiment"
+>>>>>>> 9dd753e34b275d970e44127f0cab0b73b9ca035d
